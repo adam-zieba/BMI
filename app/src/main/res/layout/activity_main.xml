@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/backgroundTheme"
+    >
+
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/height"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/textBox"
+        android:focusable="true"
+   />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="@string/weight"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/textBox"
+        android:focusable="true"
+        />
+
+    <Button
+        android:id="@+id/excecuteButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/excecuteButtonText"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/buttonAndTheme"
+        />
+
+    <TextView
+        android:id="@+id/resultOutput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/result"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/resultsBox"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/descriptionOutput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/resultDescription"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@color/resultsBox"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="height">Podaj swój wzrost w cm</string>
+    <string name="weight">Podaj swoją wagę w kg</string>
+    <string name="result">Wynik BMI</string>
+    <string name="resultDescription">Kategoria</string>
+    <string name="textAdvice">Placeholder</string>
+    <string name="textAdviceBellowNormal">W tym przedziale wynikowym BMI ryzyko chorób towarzyszące otyłości jest minimalne, ale może powodowaćwystąpienie innych problemów zdrowotnych z powodu niedowagi, wychudzenia lub wygłodzenia.Skonsultuj wyniki z lekarzem!</string>
+    <string name="textAdviceNormal">Gratulacje! Twoje BMI mieści się w normie. Trzymaj tak dalej, a ryzyko związane z chorobami spowodowane otyłością lub niedowagą nie będą występować.</string>
+    <string name="textAdviceAboveNormal">W tym przedziale wynikowm BMI występuje ryzyko chorób związanych z otyłością. </string>
+    <string name="excecuteButtonText">Przelicz</string>
+    <string name="categoryStarvation">Wygłodzenie!</string>
+    <string name="categoryEmaciation">Wychudzenie!</string>
+    <string name="categoryNormal">Pożądana masa ciała!</string>
+    <string name="categoryOverweight">Nadwaga!</string>
+    <string name="categoryObesityOne">Otyłość pierwszego stopnia!</string>
+    <string name="categoryObesityTwo">Otyłość drugiego stopnia!</string>
+    <string name="categoryObesityThree">Otyłość trzeciego stopnia!</string>
+</resources>
